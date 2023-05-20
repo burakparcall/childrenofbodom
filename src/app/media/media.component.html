@@ -1,0 +1,41 @@
+<div class="contents mx-auto">
+  <div class="container">
+    <h2 id="title">Media</h2>
+  </div>
+  <div id="media">
+  <div id="cob-carousel" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../../assets/images/COB-1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/images/COB-6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/images/COB-3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/images/COB-4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/images/COB-5.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#cob-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cob-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="concert-video" id="concertVideo" *ngFor="let video of videos">
+      <h3 id="songName">{{video.songName}}</h3>
+      <video controls class="video" id="video">
+        <source src="{{video.songUrl}}" id="videoUrl">
+      </video>
+  </div>
+</div>
+</div>

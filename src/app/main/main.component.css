@@ -1,0 +1,82 @@
+#news {
+  height: auto;
+  color: white;
+  width: 1519px;
+  margin-top: 45rem;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Kenia', cursive;
+  font-size: 55px;
+}
+
+/* main - news */
+
+#news #title {
+  font-family: 'Kenia', cursive;
+  font-size: 65px;
+  width: 130px;
+}
+
+#newsRow {
+  width: 1519px;
+  margin-bottom: 12rem;
+  display: flex;
+}
+
+.news .row .col-6 {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+#readBtn {
+  border: 1px solid gray;
+  font-size: 20px;
+  color: white;
+}
+
+#btnClose {
+  color: white;
+}
+
+.modal-header {
+  background-color: black;
+  color: white;
+}
+
+.modal-header button {
+  background-color: white;
+}
+
+.modal-body {
+  background-color: #2B2D2F;
+  color: white;
+}
+
+.modal-content {
+  width: 580px;
+}
+
+/* card */
+
+.card {
+  width: 400px;
+  height: 510px;
+  background-color: transparent;
+}
+
+.card-text {
+  font-size: 20px;
+  color: white;
+}
+
+.card-title {
+  width: 250px;
+  color: red;
+}
+
+.fs-5 {
+  color: gray;
+}

@@ -1,0 +1,22 @@
+.history {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  color: #fff;
+}
+
+/* #news {
+  height: auto;
+  color: white;
+  width: 1519px;
+  margin-top: 45rem;
+} */
+
+#title {
+  text-align: center;
+  font-family: 'Kenia', cursive;
+  font-size: 55px;
+  margin-top: 45rem;
+  color: #fff;
+}

@@ -1,0 +1,63 @@
+#tours {
+  height: auto;
+  color: white;
+  width: 1519px;
+  margin-top: 2rem;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Kenia', cursive;
+  font-size: 55px;
+  color: #fff;
+  margin-top: 44rem;
+}
+
+#ticketBtn {
+  font-size: 20px;
+  color: white;
+}
+
+.tour-contents .title {
+  width: 130px;
+}
+
+#tours {
+  text-align: center;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5rem;
+}
+
+#tours #tourInfo {
+  border-bottom: 1px solid white;
+  margin-bottom: 1rem;
+}
+
+#tours #tourInfo .col-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+#tourCol7 {
+  width: 400px;
+  margin-left: 150px;
+}
+
+#tourCol5 {
+  display: inline-block;
+  width: 400px;
+  margin-left: 250px;
+}
+
+#tourPlace {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+/* .btn-secondary {
+  width: 105px;
+} */

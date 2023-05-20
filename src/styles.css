@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+	height: auto;
+    background: url("https://images.squarespace-cdn.com/content/5c4f2d2b45776efa53c9c497/1576559111419-PX3YWCPQAF45I3V96Z36/chapterbg4.jpg?content-type=image%2Fjpeg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}

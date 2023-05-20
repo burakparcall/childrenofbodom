@@ -1,0 +1,38 @@
+#footer {
+  font-family: 'Poppins', sans-serif;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.footer-icon {
+  color: white;
+  font-size: 15px;
+}
+
+#socialAccount {
+  list-style-type: none;
+  display: inline-flex
+}
+
+#footerCol7 {
+  width: 400px;
+  margin-left: 150px;
+}
+
+#footerCol5 {
+  display: inline-block;
+  width: 400px;
+  margin-left: 250px;
+}
+
+#footerLogo {
+  display: inline-block;
+}
+
+.designed {
+  font-size: 15px;
+}
+
+#footerInfo {
+  font-size: 15px;
+}

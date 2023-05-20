@@ -1,0 +1,40 @@
+#media {
+  margin-bottom: 5rem;
+}
+
+.contents {
+  height: auto;
+  color: white;
+  width: 1519px;
+  margin-top: 45rem;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Kenia', cursive;
+  font-size: 55px;
+}
+
+.carousel {
+  height: 500px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.concert-video {
+margin-top: 12rem;
+width: 1519px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.video {
+width: 800px;
+margin-left: 350px;
+}
+
+#songName {
+  text-align: center;
+  margin-top: 4rem;
+}

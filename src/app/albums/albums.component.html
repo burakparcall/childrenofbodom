@@ -1,0 +1,18 @@
+<div class="contents">
+  <div class="container">
+    <h2  class="mx-auto" id="title"> Albums </h2>
+  </div>
+  <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4" id="albums">
+    <div class="col-3" id="albumsCol3"  *ngFor="let alb of album">
+      <div class="card mb-3 shadow">
+          <img src="{{alb.img}}" class="card-img-top" alt="" id="albumCover"/>
+          <div class="card-body">
+          <h5 class="card-title" id="albumName">{{alb.albumName}}</h5>
+          <p class="card-text" id="albumInfo">
+              {{alb.albumInfo}}
+          </p>
+          </div>
+      </div>
+  </div>
+  </div>
+</div>

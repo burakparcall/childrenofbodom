@@ -1,0 +1,42 @@
+.navbar {
+  height: 110px;
+}
+
+/* navbar - logo  */
+
+#navLogo {
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 40px;
+  width: 600px;
+  display: flex;
+  justify-content: left;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#navLogo:active,
+#navLogo {
+  border: 0;
+}
+
+/* navbar - collapse */
+
+.navbar-collapse {
+  display: flex;
+  justify-content: right;
+}
+
+/* navbar - nav item button */
+
+#navbarNav {
+  float: right;
+}
+
+#navbarNav .nav-item a {
+  display: flex;
+  margin-left: 1rem;
+  font-size: 25px;
+  font-family: 'Rubik Spray Paint', cursive;
+  background-color: transparent;
+  text-decoration: none;
+}

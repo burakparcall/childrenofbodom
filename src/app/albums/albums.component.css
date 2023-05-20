@@ -1,0 +1,49 @@
+#albums {
+  width: 1290px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10rem;
+}
+
+#albums #albumsCol3{
+  width: 430px;
+ height: 510px;
+
+}
+
+#albums #albumsCol3 .card{
+  width: 430px;
+ height: 510px;
+ background-color: transparent;
+}
+
+#albums #albumCover {
+  width: 366px;
+  height: 270px;
+  margin-left: 15px;
+}
+
+#albums #albumName {
+  font-family: 'Kenia', cursive;
+  color: red;
+}
+
+#albums #albumInfo {
+  font-size: 12px;
+  color: #fff;
+}
+
+/* #albums {
+  height: auto;
+  color: white;
+  width: 1519px;
+  margin-top: 2rem;
+} */
+
+#title {
+  text-align: center;
+  font-family: 'Kenia', cursive;
+  font-size: 55px;
+  color: #fff;
+  margin-top: 44rem;
+}

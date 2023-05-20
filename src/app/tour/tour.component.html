@@ -1,0 +1,20 @@
+<div class="tour-contents mx-auto">
+  <div class="container">
+    <h2 id="title">Tour</h2>
+  </div>
+  <div id="tours">
+    <div class="row" id="tourInfo" *ngFor="let t of tour">
+      <div class="col-4">
+        <span id="tourDate">{{t.date}}</span>
+        <div id="tourPlace">{{t.place}}</div>
+      </div>
+      <div class="col-4" id="tourLocation">
+        {{t.location}}
+      </div>
+      <div class="col-4" id="ticket">
+          <button type="button" class="btn btn-outline-secondary" id="ticketBtn">Ticket</button>
+      </div>
+  </div>
+  </div>
+</div>
+
